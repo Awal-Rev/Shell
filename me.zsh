@@ -1,17 +1,29 @@
 #! /bin/zsh
-# Biodata
 
-echo "Hello, What your name ?"
-read a
-echo "How old are you ?"
+echo -e "Selamat Datang- Silahkan masukkan nama anda" |lolcat 
+read nama
+echo -e "Nama anda = $nama (Y/N)"|lolcat
 read b
-echo "What is your hobby ?"
+echo -e "Jenis Kelaminmu (Laki-Laki/Perempuan)"|lolcat
+read gender
+echo -e "Jenis Kelaminmu = $gender (Y/N)"|lolcat
 read c
+echo -e "Berapa Usia Anda ?"|lolcat
+read usia
+echo -e "Umur Anda = ${usia} Tahun (Y/N)"|lolcat
+read d
 
-echo "Thank you Mr./Mrs.$a\n "
-echo "Your name is $a\nYour old is : ${b} years old \nAnd your hobby is ${c}ing\n"
+echo "\nNama Anda = $nama \nJenis Kelamin = $gender \nUmur = ${usia} Tahun"|lolcat 
 
-echo "Good bye Mr./Mrs. $a it's time to say you good bye" |lolcat 
+echo "\n++++++++++++++++++++++++++++++"
+echo "Terima Kasih Sudah Mengisi Form" |lolcat
+echo ++++++++++++++++++++++++++++++
+
+
+
+
+
+
 
 
 
